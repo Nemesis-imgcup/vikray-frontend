@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import { ArIcon } from '../common/webxr/assets'
 
 const Home = () => {
@@ -11,6 +12,13 @@ const Home = () => {
                 </div>
             </button>
         </div>
+=======
+import "./home.css";
+
+const Home = () => {
+    return (
+        <div className='tom'><h1>home</h1></div>
+>>>>>>> 9eab63f80536f2f47843e8db1fcfc8e442b6bdd7
     )
 }
 

@@ -6,7 +6,7 @@ import React from 'react'
  */
 const PageNotFound = () => {
   return (
-    <div>404 | Page Not Fond</div>
+    <div className=''>404 | Page Not Fond</div>
   )
 }
 

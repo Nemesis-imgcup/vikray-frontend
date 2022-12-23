@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start-HTTPS": "HTTPS=true react-scripts start",
+    "start-HTTPS-Windows": "set HTTPS=true&&react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
