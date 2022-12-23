@@ -1,0 +1,8 @@
+.tom h1{
+    text-align: center;
+    background: -webkit-linear-gradient( #9101ff, #03b8ff, #00f2ff, #65ffff, #00ffe9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: 700;
+}
