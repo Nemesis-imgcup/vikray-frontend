@@ -7,7 +7,7 @@
     background: transparent;
     border: none;
     position: relative;
-    color: #000000;
+    color: #ffffff;
     cursor: pointer;
     z-index: 1;
     padding: 10px 20px;
@@ -34,7 +34,7 @@
     transform: translate(0%, 0%);
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right, #77ff00, #a4fc00, #c7f900, #e5f400, #fff000);
+    background-image: linear-gradient(to right, #008205, #32a009, #56bf0a, #7adf08, #9fff00);
     border-radius: 10px;
   }
   
