@@ -2,7 +2,7 @@ import React from 'react'
 import { WishlistIcon } from './assets'
 import "./style/ArModelViewer.css"
 
-const ArBackBtn = () => {
+const ArBackBtn = ({name,company,price}) => {
     return (
         <button slot="exit-webxr-ar-button" className="mt-[5vh] ml-[2vh]" >
             <div className='w-[40px] h-[40px] flex justify-center items-center border-[3px] border-white rounded-full'>
@@ -19,11 +19,11 @@ const ArBackBtn = () => {
                     <div>
                         {/* Product Name */}
                         <div className='text-white text-2xl w-[200px] text-left font-semibold'>
-                            Nike Air Zoom Pegasus 36
+                            {name}
                         </div>
                         {/* company name */}
                         <div className='text-[#b8b8b8] text-base w-[200px] text-left'>
-                            By Nike
+                            By {company}
                         </div>
                     </div>
 
@@ -41,11 +41,11 @@ const ArBackBtn = () => {
                         </div>
 
                         <div className='text-2xl font-semibold'>
-                            ₹2000
+                            {price}
                         </div>
                     </div>
 
-                    <button className='bg-[#F8F872] text-black font-medium rounded-2xl px-4'>
+                    <button className='flex items-center bg-[#F8F872] text-black font-medium rounded-2xl px-4'>
                         Buy Now
                     </button>
 
