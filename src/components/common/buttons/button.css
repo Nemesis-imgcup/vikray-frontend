@@ -3,7 +3,7 @@
     width: 100px;
     height: 30px;
     font-size: 19px;
-    font-weight:20px ;
+    font-weight:bold ;
     background: transparent;
     border: none;
     position: relative;
@@ -34,7 +34,7 @@
     transform: translate(0%, 0%);
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right, #77ff00, #a4fc00, #c7f900, #e5f400, #fff000);
+    background-color: #FFFF6D;
     border-radius: 10px;
   }
   
@@ -42,9 +42,6 @@
     transform: translate(10px, 10px);
     width: 35px;
     height: 35px;
-    background: #ffffff15;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     border-radius: 50px;
   }
   
