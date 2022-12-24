@@ -1,11 +1,14 @@
 import React from 'react'
-import { ArIcon, ExitArBtnIcon } from '../common/webxr/assets'
+import { Navbar } from '../common';
+import "./home.css";
+
 
 const Home = () => {
     return (
-        <div className='bg-black h-[100vh] p-10'>Home
-            <ExitArBtnIcon />
-        </div>
+        <div className='tom'>
+            <Navbar/>
+            <h1>home</h1>
+            </div>
     )
 }
 
