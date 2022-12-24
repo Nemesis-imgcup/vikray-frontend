@@ -3,11 +3,11 @@
     width: 100px;
     height: 30px;
     font-size: 19px;
-    font-weight:20px ;
+    font-weight:bold ;
     background: transparent;
     border: none;
     position: relative;
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     z-index: 1;
     padding: 10px 20px;
@@ -34,7 +34,7 @@
     transform: translate(0%, 0%);
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right, #008205, #32a009, #56bf0a, #7adf08, #9fff00);
+    background-color: #FFFF6D;
     border-radius: 10px;
   }
   
@@ -42,9 +42,6 @@
     transform: translate(10px, 10px);
     width: 35px;
     height: 35px;
-    background: #ffffff15;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     border-radius: 50px;
   }
   
