@@ -1,8 +1,44 @@
-.tom h1{
+.home h1{
     text-align: center;
-    background: -webkit-linear-gradient( #9101ff, #03b8ff, #00f2ff, #65ffff, #00ffe9);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(255, 255, 255);
     font-size: 45px;
-    font-weight: 700;
+    padding-top: 12rem;
+}
+.home span{
+    color: yellow;
+    font-weight: bold;
+}
+.home p{
+    padding-top: 5rem;
+    color: aliceblue;
+    text-align: center;
+}
+.home .line-1 {
+    height: 4px;
+    background: rgb(246, 255, 0);
+    margin-top: 9rem;
+
+    width: 100%;
+  }
+  .home .line-2 {
+    background: rgb(246, 255, 0);
+    height: 4px;
+    width: 100%;
+  }
+.home .meta h2{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 40x;
+    font-size: 9rem;
+    font-weight: BOLD;
+    text-shadow:
+    -1px 0px 0px rgb(242, 255, 0),
+    1px 0px 0px rgb(242, 255, 0),
+    0px -1px 0px rgb(242, 255, 0),
+    0px 1px 0px rgb(242, 255, 0);color: transperent;
+    border-color: yellow;
+}
+.home .container{
+    padding-top: 5rem;
+    
 }
