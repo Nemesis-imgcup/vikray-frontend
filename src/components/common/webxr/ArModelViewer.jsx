@@ -4,6 +4,7 @@ import envLight from "./studio_small_09_2k.hdr"
 import '@google/model-viewer'
 import { ArIcon2 } from './assets'
 import "./style/ArModelViewer.css"
+import ArBackBtn from './ArBackBtn'
 
 const ArModelViewer = () => {
     return (
@@ -15,6 +16,7 @@ const ArModelViewer = () => {
                 environment-image={envLight}
                 ar
                 ar-modes="webxr scene-viewer quick-look"
+                ar-placement="floor"
                 camera-controls
                 poster="poster.webp"
                 shadow-intensity="1"
@@ -44,9 +46,10 @@ const ArModelViewer = () => {
                         View in your space
                     </div>
                 </button>
+                {/* <ArModelViewer /> */}
 
                 {/* Back button */}
-                <button slot="exit-webxr-ar-button" className="mt-[5vh] ml-[2vh]" >
+                {/* <button slot="exit-webxr-ar-button" className="mt-[5vh] ml-[2vh]" >
                     <div className='w-[40px] h-[40px] flex justify-center items-center border-[3px] border-white rounded-full'>
                         <div className='pb-1'>
                             <div className='w-[13px] rotate-[140deg] rounded-full h-[4px] bg-white'></div>
@@ -54,7 +57,8 @@ const ArModelViewer = () => {
                             <div className='w-[13px] absolute rotate-[40deg] rounded-full h-[4px] bg-white'></div>
                         </div>
                     </div>
-                </button>
+                </button> */}
+                <ArBackBtn/>
 
 
 

@@ -6,3 +6,9 @@
   :not(:defined) > * {
     display: none;
   }
+
+model-viewer[ar-status="session-started"]{
+background-color: brown;
+width: 100px;
+height: 100px;
+  }
