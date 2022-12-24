@@ -1,27 +1,27 @@
 .home h1{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 45px;
     padding-top: 12rem;
 }
 .home span{
-    color: yellow;
+    color: #FFFF6D;
     font-weight: bold;
 }
 .home p{
-    padding-top: 5rem;
-    color: aliceblue;
+    padding-top: 3rem;
+    color: white;
     text-align: center;
 }
 .home .line-1 {
     height: 4px;
-    background: rgb(246, 255, 0);
+    background: #FFFF6D;
     margin-top: 9rem;
 
     width: 100%;
   }
   .home .line-2 {
-    background: rgb(246, 255, 0);
+    background: #FFFF6D;
     height: 4px;
     width: 100%;
   }
@@ -32,11 +32,11 @@
     font-size: 9rem;
     font-weight: BOLD;
     text-shadow:
-    -1px 0px 0px rgb(242, 255, 0),
-    1px 0px 0px rgb(242, 255, 0),
-    0px -1px 0px rgb(242, 255, 0),
-    0px 1px 0px rgb(242, 255, 0);color: transperent;
-    border-color: yellow;
+    -1px 0px 0px #FFFF6D,
+    1px 0px 0px #FFFF6D,
+    0px -1px 0px #FFFF6D,
+    0px 1px 0px #FFFF6D;color: transperent;
+    border-color: #FFFF6D;
 }
 .home .container{
     padding-top: 5rem;

@@ -1,7 +1,8 @@
 import React from 'react'
 import { Navbar } from '../common';
 import "./home.css";
-import '../common/buttons/button.css'
+import { ComponentA } from './homeComponents';
+// import '../common/buttons/button.css'
 
 
 
@@ -14,12 +15,21 @@ const Home = () => {
       </h1>
       <p>Online metaverse shopping store to buy all your physical and digital goodies<br></br> and assets together with more user focused features.</p>
 
-      <div class="container">
-        <a href="#" class="neon-button orange">Lets shop</a>
+
+      <div className='flex justify-center pt-5'>
+        <button class="flex items-center bg-[#F8F872] text-black font-medium rounded-2xl px-10 py-3">
+          <a href="#" className="">Let's shop</a>
+        </button>
       </div>
+
+
+
       <div class="line-1"></div>
-      <div class='meta'><h2>METAVERSE    SHOPPING</h2></div>
+      <div class='meta'><h2>METAVERSE SHOPPING</h2></div>
       <div class="line-2"></div>
+
+      <ComponentA/>
+
     </div>
 
 
