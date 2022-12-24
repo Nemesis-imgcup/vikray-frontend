@@ -1,12 +1,12 @@
 import React from 'react'
-import { NavBar } from '../common/Navbar';
+import { Navbar } from '../common';
 import "./home.css";
 
 
 const Home = () => {
     return (
         <div className='tom'>
-            <NavBar/>
+            <Navbar/>
             <h1>home</h1>
             </div>
     )
