@@ -43,21 +43,28 @@ const ComponentA = () => {
 
                     </div>
                 </div>
+        </div>
+
+                <div className='flex m-7 mr-[6vw] pl-[10vw] pr-[5vw]'>
+
+                 <div className=''>
+                      <div className='text-[3rem] text-[#F8F872] pb-5 pt-80 font-bold'>
+                                Use Your Digital assets in various platform
+                      </div>
+
+                      <div className='text-white text-xl w-[50vw]  pb-9'>
+                                   For any products you buy, mint your own nft for your product, so that you can have your taste of choice in both realverse and metaverse together ;)
+                      </div>
+                 </div>
+
+                    <img src={Logo1}/>
+
+                  </div>
 
 
-                <div className='text-[3rem] text-[#F8F872] pt-96 pb-5 font-bold pl-80'>
-                    Use Your Digital assets in various platform
-
-                </div>
-
-                <div className='text-white text-xl w-[50vw] pl-80 pb-9'>
-                    For any products you buy, mint your own nft for your product, so that you can have your taste of choice in both realverse and metaverse together ;)
-                </div>
-
-                <div className='img99'><img src={Logo1} alt="" /></div>
 
             </div>
-        </div >
+       
 
     )
 }
