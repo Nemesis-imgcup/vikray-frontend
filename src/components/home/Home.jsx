@@ -1,7 +1,11 @@
 import React from 'react'
 import { Navbar } from '../common';
+
 import "./home.css";
 import { ComponentA } from './homeComponents';
+import { Footer } from './homeFooter';
+
+
 // import '../common/buttons/button.css'
 
 
@@ -29,6 +33,9 @@ const Home = () => {
       <div class="line-2"></div>
 
       <ComponentA/>
+      <Footer/>
+      
+     
 
     </div>
 

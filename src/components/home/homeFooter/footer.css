@@ -1,0 +1,30 @@
+
+#leftbox {
+    float:left; 
+    background:rgb(0, 0, 0);
+    border-width: 0.1rem;
+    width:33.33%;
+    height:280px;
+}
+#middlebox{
+    float:left; 
+    background:rgb(0, 0, 0);
+    border-width: 0.1rem;
+    width:33.33%;
+    height:280px;
+}
+#rightbox{
+    float:right;
+    background:rgb(0, 0, 0);
+    border-width: 0.1rem;
+    width:33.33%;
+    height:280px;
+}
+.boxtext{
+    color:rgb(255, 255, 255);
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    font-size: 1.7rem;
+    text-align:center;
+}
