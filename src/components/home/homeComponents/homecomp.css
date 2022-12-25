@@ -15,7 +15,7 @@
     line-height: 2.25rem;
     font-weight: bold;
     color: #F8F872;
-    padding-left: 25rem;
+    /* padding-left: 25rem; */
     margin-top: 25rem;
     margin-bottom: 2rem;
 }
@@ -23,7 +23,7 @@
     font-size: 1.25rem; 
     line-height: 1.75rem;
     color: #ffffff;
-    padding-left: 25rem;
+    /* padding-left: 25vw; */
     margin-top: 1rem;
   
 }
