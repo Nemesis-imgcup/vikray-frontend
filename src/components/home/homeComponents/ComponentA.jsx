@@ -33,7 +33,7 @@ const ComponentA = () => {
                 </div>
                 </div>
                  
-                
+                <div className='flex'>
                 <div className='text-[3rem] text-[#F8F872] pt-96 pb-5 font-bold pl-80'>
                      Use Your Digital assets in various platform
                     
@@ -43,9 +43,10 @@ const ComponentA = () => {
                 For any products you buy, mint your own nft for your product, so that you can have your taste of choice in both realverse and metaverse together ;)
                 </div>
 
-                <div className='img99'><img src={Logo1} alt="" /></div>
-            
+                <div className='img99'><img src={Logo1} alt="" />
                 </div>
+                </div>
+            
                 
                
 
