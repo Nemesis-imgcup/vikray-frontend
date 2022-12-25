@@ -1,9 +1,10 @@
 import React from 'react'
 import { Navbar } from '../common';
+
 import "./home.css";
 import { ComponentA } from './homeComponents';
 import { Footer } from './homeFooter';
-;
+
 
 // import '../common/buttons/button.css'
 
@@ -33,6 +34,7 @@ const Home = () => {
 
       <ComponentA/>
       <Footer/>
+      
      
 
     </div>
