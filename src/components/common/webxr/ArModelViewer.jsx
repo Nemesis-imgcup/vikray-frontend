@@ -42,7 +42,7 @@ const ArModelViewer = ({ name, company, model, placement="floor", poster, hotspo
 
 
                 {/* Button to trigger AR */}
-                <button className='text-white mt-[50vh] mx-[27vw] flex backdrop-blur-lg justify-center w-[12rem] items-center space-x-3 border border-white p-2 rounded-full hover:bg-[#ffffff2c]' slot="ar-button" id="ar-button">
+                <button className='text-white mt-[50vh] mx-[50%] translate-x-[-50%] flex backdrop-blur-lg justify-center w-[12rem] items-center space-x-3 border border-white p-2 rounded-full hover:bg-[#ffffff2c]' slot="ar-button" id="ar-button">
                     <div id="ar-prompt">
                         <ArIcon2 />
                     </div>
