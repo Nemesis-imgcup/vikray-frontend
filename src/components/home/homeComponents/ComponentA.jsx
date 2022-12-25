@@ -43,45 +43,28 @@ const ComponentA = () => {
 
                     </div>
                 </div>
-                 
-                
-                <div className='text-[3rem] text-[#F8F872] pt-96 pb-5 font-bold pl-80'>
-                    Use Your Digital assets in various platform
+        </div>
 
-                </div>
+                <div className='flex m-7 mr-[6vw] pl-[10vw] pr-[5vw]'>
 
-                <div className='text-white text-xl w-[50vw] pl-80 pb-9'>
-                    For any products you buy, mint your own nft for your product, so that you can have your taste of choice in both realverse and metaverse together ;)
-                </div>
+                 <div className=''>
+                      <div className='text-[3rem] text-[#F8F872] pb-5 pt-80 font-bold'>
+                                Use Your Digital assets in various platform
+                      </div>
 
-                <div className='img99'><img src={Logo1} alt="" /></div>
-            
-                </div>
-                
-               
+                      <div className='text-white text-xl w-[50vw]  pb-9'>
+                                   For any products you buy, mint your own nft for your product, so that you can have your taste of choice in both realverse and metaverse together ;)
+                      </div>
+                 </div>
 
-            <div className='m-7 flex right-0'>
-                <div className='flex flex-col'>
-                    <div className='text-3xl text-[#F8F872] pb-5 font-bold '>
-                        Immense AR-VR Environment
-                    </div>
-                    <div className='text-white text-xl w-[40vw]'>
-                        With the heavy use of AR-VR, making your shopping easier and your shopping space more friendly and vast, so you can always get out of it.
-                    </div>
-                </div>
+                    <img src={Logo1}/>
 
-
-
-                {/* auto play video */}
-                <div>
-                    <video src={Demo} autoPlay="autoplay" loop="loop" muted="muted" className=' m-6 rounded-2xl h-[50vh]' />
-                    <div className='bgo'></div>
-                </div>
+                  </div>
 
 
 
             </div>
-        </div >
+       
 
     )
 }
