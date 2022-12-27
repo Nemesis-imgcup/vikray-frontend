@@ -1,6 +1,6 @@
 import React from 'react'
 import "./homecomp.css";
-import { Image, Logo, Logo1 } from './compassets';
+import { Logo, Logo1 } from './compassets';
 import Demo from '../assets/Demo.mp4'
 
 
@@ -17,7 +17,7 @@ const ComponentA = () => {
                         </div>
 
                         <div className='text-white text-xl w-[50vw]  pb-9'>
-                            With the heavy use of AR-VR, making your shopping easier and your shopping space more friendly and vast, so you can always get out of it.
+                            With the heavy use of AR-VR, making your shopping easier and your shopping space more friendly and vast, <br></br>so you can always get out of it.
                         </div>
                     </div>
 
