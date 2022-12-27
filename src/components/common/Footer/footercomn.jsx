@@ -5,7 +5,7 @@ import { Logofoot } from './footerassets';
 const footercommn = () => {
   return (
     <div className="footer pt-40">
-      <div class="flex justify-evenly space-x-7 items-center py-8">
+      <div class="flex flex-col md:flex-row justify-evenly space-x-7 items-center py-8">
 
         <div class="flex flex-col items-center m-6">
           <div class="">
@@ -14,7 +14,7 @@ const footercommn = () => {
           <div class="text-xl font-bold text-white">VIKRAY</div>
         </div>
 
-        <div class="text-xl font-bold text-[#F8F872]">
+        <div class="text-xl pt-10 md:pt-0 font-bold text-[#F8F872]">
           Company
           <div class=" flex flex-col text-white pt-5 ">
             <Link to={"/about"}>About</Link>
@@ -23,7 +23,7 @@ const footercommn = () => {
           </div>
         </div>
 
-        <div class="text-xl font-bold text-[#F8F872]">
+        <div class="text-xl pt-10 md:pt-0 font-bold text-[#F8F872]">
           Resources
           <div class=" flex flex-col text-white pt-5 ">
             <Link to={"/safty"}>Saftey</Link>
@@ -32,7 +32,7 @@ const footercommn = () => {
           </div>
         </div>
 
-        <div class="text-xl font-bold text-[#F8F872]">
+        <div class="text-xl pt-10 md:pt-0 font-bold text-[#F8F872]">
           Policy
           <div class=" flex flex-col text-white pt-5 ">
             <Link to={"/tac"}>Terms & Condition</Link>
@@ -42,7 +42,7 @@ const footercommn = () => {
           </div>
         </div>
 
-        <div class="flex border  h-[10vw] w-2 border-[#F8F872]  bg-[#F8F872] mt-0 ml-[5em]"></div>
+        <div class="flex border md:h-[10vw] md:w-2 h-2 w-[10vw] border-[#F8F872]  bg-[#F8F872] my-[2rem] md:ml-[5em]"></div>
 
         <div class="flex-col ">
           <div class="text-xl font-bold text-white pb-9">
