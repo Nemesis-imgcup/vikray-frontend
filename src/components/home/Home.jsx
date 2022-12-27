@@ -1,5 +1,6 @@
 import React from 'react'
-import { Navbar } from '../common';
+import { Link } from 'react-router-dom';
+import { Footercomn, Navbar } from '../common';
 
 import "./home.css";
 import { ComponentA } from './homeComponents';
@@ -21,9 +22,12 @@ const Home = () => {
 
 
       <div className='flex justify-center pt-5'>
-        <button class="flex items-center bg-[#F8F872] text-black font-medium rounded-2xl px-10 py-3">
-          <a href="#" className="">Let's shop</a>
-        </button>
+        <Link to='/shop'>
+          <button class="flex items-center bg-[#F8F872] text-black font-medium rounded-2xl px-10 py-3">
+            <div href="#" className="">Let's shop</div>
+          </button>
+        </Link>
+
       </div>
 
 
@@ -32,10 +36,11 @@ const Home = () => {
       <div class='meta'><h2>METAVERSE SHOPPING</h2></div>
       <div class="line-2"></div>
 
-      <ComponentA/>
-      <Footer/>
-      
-     
+      <ComponentA />
+      <Footer />
+      <Footercomn />
+
+
 
     </div>
 

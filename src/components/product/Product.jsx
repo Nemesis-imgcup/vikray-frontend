@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArModelViewer, Navbar } from '../common'
+import { ArModelViewer, Footercomn, Navbar } from '../common'
 import cyberpunk_jacket from '../../3dassets/cyberpunk_jacket.glb'
 import { BagIcon, HeartIcon } from './assets'
 
@@ -35,7 +35,7 @@ const Product = () => {
         <div>
             <Navbar />
             <div className='md:flex p-10 justify-center text-white'>
-                <div className='md:items-center md:mr-[5vw]'>
+                <div className='md:items-center flex justify-center md:mr-[5vw]'>
                     <div className='rounded-full absolute z-[-1]  bg-[#FFFF6D]   w-[20vw] h-[40vh] blur-[800px]'></div>
                     <ArModelViewer name={data[0].name} company={data[0].company} hotspots={data[0].hotspots} price={data[0].price} poster={data[0].poster} model={data[0].model} />
                 </div>
@@ -116,6 +116,14 @@ const Product = () => {
 
             </div>
 
+            <div className='md:flex hidden pl-[15vw]'>
+                <div className='border py-3 px-6 rounded-full bg-[#ffffff38]'>
+                    View it in AR on your phone
+                </div>
+            </div>
+
+
+            <Footercomn />
 
         </div>
     )
