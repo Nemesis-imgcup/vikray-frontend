@@ -7,8 +7,6 @@ import { ComponentA } from './homeComponents';
 import { Footer } from './homeFooter';
 
 
-// import '../common/buttons/button.css'
-
 
 
 const Home = () => {

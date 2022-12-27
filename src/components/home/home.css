@@ -16,26 +16,34 @@
 .home .line-1 {
     height: 4px;
     background: #FFFF6D;
-    margin-top: 9rem;
-
+    margin-top: 10vh;
     width: 100%;
   }
+
   .home .line-2 {
     background: #FFFF6D;
     height: 4px;
     width: 100%;
   }
+
 .home .meta h2{
     text-align: center;
-    margin-top: -20px;
-    margin-bottom: 40x;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 9rem;
     font-weight: BOLD;
+    color: #000000;
     text-shadow:
     -1px 0px 0px #FFFF6D,
     1px 0px 0px #FFFF6D,
     0px -1px 0px #FFFF6D,
-    0px 1px 0px #FFFF6D;color: transperent;
+    0px 1px 0px #FFFF6D;
     border-color: #FFFF6D;
 }
 
+@media (max-width: 1000px) {
+    .home .meta h2{
+        font-size: 10vw;
+       
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bag, Jack, Shoe, Top1, Top2, Top3, Top4 } from '../shopassets'
+import { Bag, BagNikon, Jack, Shoe, Top1, Top2, Top3, Top4 } from '../shopassets'
 import ItemCard from './ItemCard'
 
 const TopPicksForYou = () => {
@@ -27,6 +27,13 @@ const TopPicksForYou = () => {
             image: Bag,
             size: [7, 8, 9, 10],
             path: '/product'
+        },
+        {
+            id: 4,
+            name: 'Nikon Bag',
+            image: BagNikon,
+            size: [7, 8, 9, 10],
+            path: '/product'
         }
     ]
 
@@ -39,8 +46,8 @@ const TopPicksForYou = () => {
                 <div class="flex border h-0 w-[10vw] border-white mt-[17vh] ml-[1em]"></div>
             </div>
 
-            <div class="flex pt-[10vh]">
-                <div class="container11">
+            <div class="flex pt-[10vh] overflow-x-auto ">
+                <div class="container11 pb-4">
 
                     {data.map((item) => {
                         return (
