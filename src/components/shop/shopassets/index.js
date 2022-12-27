@@ -13,5 +13,7 @@ import Top3  from './toppic3.png';
 import Top4  from './toppic4.png';
 
 import Jack  from './jacket.png';
+import Bag  from './cambag.png';
+import Shoe  from './nikeshoe.png';
 
-export { Card1, Card2, Card3, Brand1, Brand2, Brand3, Brand4, Top1, Top2, Top3, Top4, Jack};
+export { Card1, Card2, Card3, Brand1, Brand2, Brand3, Brand4, Top1, Top2, Top3, Top4, Jack, Bag, Shoe};

@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar } from '../common';
 import { Footercomn } from '../common';
 import './card.css'
-import { Card1, Card2, Card3, Brand1, Brand2, Brand3, Brand4, Top1, Top2, Top3, Top4, Jack } from './shopassets';
+import { Card1, Card2, Card3, Brand1, Brand2, Brand3, Brand4, Top1, Top2, Top3, Top4, Jack, Bag, Shoe } from './shopassets';
 
 
 const shop = () => {
@@ -89,7 +89,7 @@ const shop = () => {
           <div class="container11">
             <div class="card">
               <div class="imgBx">
-                <img src="https://o.remove.bg/downloads/310fb983-b3e5-4647-b578-22a69960b047/image-removebg-preview.png" />
+                <img src={ Shoe } />
               </div>
               <div class="contentBx">
                 <h2>Nike Shoes</h2>
@@ -126,7 +126,7 @@ const shop = () => {
             </div>
             <div class="card">
               <div class="imgBx">
-                <img src="https://o.remove.bg/downloads/faa3507b-d295-45c8-a9ad-618cd751176c/1300_800x-removebg-preview.png" />
+                <img src={Bag} />
               </div>
               <div class="contentBx">
                 <h2>Cam Bag</h2>
