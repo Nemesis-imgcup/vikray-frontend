@@ -7,7 +7,7 @@ const footercommn = () => {
     <div className="footer pt-40">
       <div class="flex flex-col md:flex-row justify-evenly space-x-7 items-center py-8">
 
-        <div class="flex flex-col items-center m-6">
+        <div class="flex flex-col items-center m-6vw">
           <div class="">
             <img className='w-[6rem]' src={Logofoot} alt="" />
           </div>

@@ -31,7 +31,7 @@ const footer = () => {
             </div>
             <footer>
                 <div className="footer1">
-                    <div className="footer1text">© 2021, All Rights Reserved</div>
+                    <div className="footer1 text-black">.</div>
                 </div>
 
             </footer>
