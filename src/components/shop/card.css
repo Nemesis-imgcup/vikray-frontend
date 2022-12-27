@@ -177,3 +177,10 @@
   transition-delay: 0.75s;
   
 }
+@media (max-width: 1000px) {
+  .container11 .card {
+      width: 80vw;
+      margin-left: 5vw;
+      min-width: 350px;
+  }
+}
