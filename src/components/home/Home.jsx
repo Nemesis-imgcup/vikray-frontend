@@ -13,7 +13,7 @@ import { Footer } from './homeFooter';
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home overflow-x-hidden'>
       <Navbar />
       <h1>With buying your favorite<span> Goodies</span><br></br>
         You can <span>mint</span> your own <span>NFTs</span>

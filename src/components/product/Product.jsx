@@ -2,6 +2,7 @@ import React from 'react'
 import { ArModelViewer, Footercomn, Navbar } from '../common'
 import cyberpunk_jacket from '../../3dassets/cyberpunk_jacket.glb'
 import { BagIcon, HeartIcon } from './assets'
+import { Helmet } from 'react-helmet'
 
 const Product = () => {
 
@@ -33,6 +34,9 @@ const Product = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Buy {data[0].name} | Vikray</title>
+            </Helmet>
             <Navbar />
             <div className='md:flex p-10 justify-center text-white'>
                 <div className='md:items-center flex justify-center md:mr-[5vw]'>
