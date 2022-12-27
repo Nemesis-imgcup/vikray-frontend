@@ -4,26 +4,26 @@
     background:rgb(0, 0, 0);
     border-width: 0.1rem;
     width:33.33%;
-    height:20vw;
+    height:15vw;
 }
 #middlebox{
     float:left; 
     background:rgb(0, 0, 0);
     border-width: 0.1rem;
     width:33.33%;
-    height:20vw;
+    height:15vw;
 }
 #rightbox{
     float:right;
     background:rgb(0, 0, 0);
     border-width: 0.1rem;
     width:33.33%;
-    height:20vw;
+    height:15vw;
 }
 .boxtext{
     color:rgb(255, 255, 255);
     display: flex;
-    padding-top: 5vw;
+    padding-top: 3vw;
     padding-bottom: 5vw;
     font-size: 2vw;
     text-align:center;
