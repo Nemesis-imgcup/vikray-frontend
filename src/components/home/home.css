@@ -31,11 +31,12 @@
     margin-bottom: 40x;
     font-size: 9rem;
     font-weight: BOLD;
+    color: #000000;
     text-shadow:
     -1px 0px 0px #FFFF6D,
     1px 0px 0px #FFFF6D,
     0px -1px 0px #FFFF6D,
-    0px 1px 0px #FFFF6D;color: transperent;
+    0px 1px 0px #FFFF6D;
     border-color: #FFFF6D;
 }
 
