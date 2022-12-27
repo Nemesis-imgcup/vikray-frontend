@@ -9,9 +9,9 @@ import ArBackBtn from './ArBackBtn'
 const ArModelViewer = ({ name, company, model, placement="floor", poster, hotspots=null, price }) => {
 
     return (
-        <div className='bg-black'>
+        <div className=' flex bg-[#191919] w-[60vw] md:w-[600px]  h-[60vh] rounded-3xl'>
             <model-viewer
-                style={{ width: "100%", height: "60vh" }}
+                style={{ width: "100%", height: "60vh", display: "flex" }}
                 alt={`A 3D model of an ${name} by ${company}`}
                 src={model}
                 environment-image={envLight}
@@ -24,7 +24,7 @@ const ArModelViewer = ({ name, company, model, placement="floor", poster, hotspo
                 auto-rotate
             >
                 {/* <div className="progress-bar" slot="progress-bar">
-                    <div className="update-bar"></div>
+                    <div className="update-bar bg-white"></div>
                 </div> */}
 
                 {/* Hotspot */}

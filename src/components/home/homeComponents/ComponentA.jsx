@@ -24,14 +24,14 @@ const ComponentA = () => {
 
                     {/* auto play video */}
 
-                        <video src={Demo} autoPlay="autoplay" loop="loop" muted="muted" className=' rounded-2xl h-[70vh]' />
+                    <video src={Demo} autoPlay="autoplay" loop="loop" muted="muted" className=' rounded-2xl h-[70vh]' />
 
                 </div>
 
 
-                <div class="container2">
+                <div class="flex">
 
-                        <img className='' src={Logo} alt='' />
+                    <img className='' src={Logo} alt='' />
 
                     <div className='text00'>
                         <div class='tt1'>
@@ -44,17 +44,22 @@ const ComponentA = () => {
                     </div>
                 </div>
 
+                <div className='flex'>
+                    <div>
+                        <div className='text-[3rem] text-[#F8F872] pt-96 pb-5 font-bold pl-80'>
+                            Use Your Digital assets in various platform
 
-                <div className='text-[3rem] text-[#F8F872] pt-96 pb-5 font-bold pl-80'>
-                    Use Your Digital assets in various platform
+                        </div>
+
+                        <div className='text-white text-xl w-[50vw] pl-80 pb-9'>
+                            For any products you buy, mint your own nft for your product, so that you can have your taste of choice in both realverse and metaverse together ;)
+                        </div>
+                    </div>
+                    <img src={Logo1} alt="" />
 
                 </div>
 
-                <div className='text-white text-xl w-[50vw] pl-80 pb-9'>
-                    For any products you buy, mint your own nft for your product, so that you can have your taste of choice in both realverse and metaverse together ;)
-                </div>
 
-                <div className='img99'><img src={Logo1} alt="" /></div>
 
             </div>
         </div >
