@@ -7,7 +7,7 @@ import { Footercomn } from '../../common';
 
 const ComponentA = () => {
     return (
-        <div>
+        <div className='flex justify-center'>
             <div className='pt-[10vh] '>
 
                 <div className='flex m-7 mr-[6vw] pl-[10vw] pr-[5vw]'>
