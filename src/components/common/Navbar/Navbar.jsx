@@ -9,7 +9,7 @@ const Navbar = () => {
 
       <VikrayLogo />
 
-      <div className="flex items-top justify-center content-center relative items-center w-full h-full">
+      <div className="flex items-top pl-[13em] justify-center content-center relative items-center w-full h-full">
         <form method="GET">
           <div className="relative text-gray-600 focus-within:text-gray-400">
             <span className="absolute inset-y-0 left-0 flex items-center pl-2">
