@@ -11,11 +11,11 @@ const ComponentA = () => {
         <div className="pt-[10vh] ">
           <div className="flex m-7 mr-[6vw] px-[10vw] pr-[5vw]">
             <div className="">
-              <div className="text-[3vw] text-[#F8F872] font-bold mt-[12.5vw] mb-5">
+              <div className="text-[2vw] text-[#F8F872] font-bold mt-[12.5vw] mb-5">
                 Immense AR-VR Environment
               </div>
 
-              <div className="text-white text-[1.5vw] w-[50vw]">
+              <div className="text-white text-[1vw] w-[50vw]">
                 With the heavy use of AR-VR, making your shopping easier and
                 your shopping space more friendly and vast, <br></br>so you can
                 always get out of it.
@@ -36,11 +36,11 @@ const ComponentA = () => {
           <div className="flex">
             <img className='h-[50vw]' src={Logo} alt=""/>
             <div>
-              <div className="text-[3vw] text-[#F8F872] font-bold mt-[12.5vw] mb-5">
-                Mint Your Own NFT for Products you Buy
+              <div className="text-[2vw] text-[#F8F872] font-bold mt-[12.5vw] mb-5 mx-[10vw]">
+                Mint Your Own NFT for Products you buy
               </div>
 
-              <div className="text-white text-[1.5vw]">
+              <div className="text-white text-[1vw] mx-[10vw]">
                 For any products you buy, mint your own nft for your product, so
                 that you can have your taste of choice in both realverse and
                 metaverse together ;)
@@ -51,11 +51,11 @@ const ComponentA = () => {
 
         <div className="flex">
           <div>
-            <div className="text-[3vw] text-[#F8F872] font-bold mt-[12.5vw] mb-5  pl-[10vw]">
+            <div className="text-[2vw] text-[#F8F872] font-bold mt-[12.5vw] mb-5  pl-[10vw]">
               Use Your Digital assets in various platform
             </div>
 
-            <div className="text-white text-[1.5vw]  px-[10vw]">
+            <div className="text-white text-[1vw]  px-[10vw]">
               For any products you buy, mint your own nft for your product, so
               that you can have your taste of choice in both realverse and
               metaverse together ;)
