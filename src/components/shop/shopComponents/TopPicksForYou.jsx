@@ -32,9 +32,9 @@ const TopPicksForYou = () => {
 
     return (
         <div>
-           <div class="flex">
-                <div className="flex justify-left text-white font-medium Pl-5 text-2xl pt-[15vh]">
-                    DEALS OF THE DAY
+             <div class="flex">
+                <div className="flex justify-left text-white font-medium text-2xl pl-5 pt-[15vh]">
+                    TOP PICKS FOR YOU
                 </div>
                 <div class="flex border h-0 w-[10vw] border-white mt-[17vh] ml-[1em]"></div>
             </div>
