@@ -43,25 +43,21 @@ const formatAddress = (address) => {
         </form>
       </div>
 
-      {/* <div className='flex space-x-4'>
-        <button className="flex items-center  text-white font-medium rounded-2xl px-10 py-3" >LogIn</button>
-        <button className="flex items-center bg-[#F8F872] text-black font-medium rounded-2xl px-10 py-3">Signup</button>
-      </div> */}
-
+     
       {
         isLogedIn === true ?
           <div>
-            <button onClick={() => connectWallet()} className="flex items-center bg-[#ffffff8a] w-[11rem] text-white font-medium rounded-3xl " >
-              <img className='rounded-3xl w-[9rem]' src={profilePic} alt="" />
-              <div className='px-6 '>
+            <button onClick={() => connectWallet()} className="flex items-center bg-[#ffffff8a] w-[10rem] h-[6vh] text-white font-medium rounded-3xl " >
+              <img className='rounded-3xl  h-[6vh]' src={profilePic} alt="" />
+              <div className='px-4 '>
                 {walletAddr !== null ? formatAddress(walletAddr) :  "Add Wallet"}
               </div>
             </button>
           </div>
           :
-          <div className='flex space-x-4'>
-            <button onClick={() => setIsLogedIn(true)} className="flex items-center  text-white font-medium rounded-2xl px-10 py-3" >LogIn</button>
-            <button className="flex items-center bg-[#F8F872] text-black font-medium rounded-2xl px-10 py-3">Signup</button>
+          <div className='flex space-x-2'>
+            <button onClick={() => setIsLogedIn(true)} className="flex items-center  text-white font-medium rounded-2xl mr-[2vw] ml-[5vw] py-3" >LogIn</button>
+            <button className="flex items-center bg-[#F8F872] text-black font-medium rounded-2xl px-7 ">Signup</button>
           </div>
       }
 
