@@ -15,8 +15,8 @@ const PageNotFound = () => {
         404 | PAGE NOT FOUND
       </div>
       <div className=" text-center text-[#F8F872] font-normal text-2xl mt-4">
-        The page you are looking for might have been removed <br /> had its name
-        changed or is temporarily un availabel
+        The page you are looking for might have been removed, <br /> had its name
+        changed or is temporarily unavailabel
       </div>
       <div className="flex justify-center pt-[9vh]">
         <Link to="/">
