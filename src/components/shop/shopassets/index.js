@@ -7,10 +7,6 @@ import Brand2 from "./brand2.png";
 import Brand3 from "./brand3.png";
 import Brand4 from "./brand4.png";
 
-import Top1 from "./toppic1.png";
-import Top2 from "./toppic2.png";
-import Top3 from "./toppic3.png";
-import Top4 from "./toppic4.png";
 
 import Jack from "./jacket.png";
 import Bag from "./cambag.png";
@@ -25,10 +21,6 @@ export {
   Brand2,
   Brand3,
   Brand4,
-  Top1,
-  Top2,
-  Top3,
-  Top4,
   Jack,
   Bag,
   Shoe,
