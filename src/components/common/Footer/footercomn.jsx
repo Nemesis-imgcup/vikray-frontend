@@ -32,7 +32,7 @@ const footercommn = () => {
           </div>
         </div>
 
-        <div class="text-xl pt-10 md:pt-0 font-bold text-[#F8F872]">
+        <div class="text-xl pt-10 md:pt-[2vh] font-bold text-[#F8F872]">
           Policy
           <div class=" flex flex-col text-white pt-5 ">
             <Link to={"/tac"}>Terms & Condition</Link>
