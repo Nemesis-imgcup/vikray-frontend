@@ -6,10 +6,9 @@ const footercommn = () => {
   return (
     <div className="footer pt-40">
       <div class="flex flex-col md:flex-row justify-evenly space-x-7 items-center py-8">
-
         <div class="flex flex-col items-center m-6vw">
           <div class="">
-            <img className='w-[6rem]' src={Logofoot} alt="" />
+            <img className="w-[6rem]" src={Logofoot} alt="" />
           </div>
           <div class="text-xl font-bold text-white">VIKRAY</div>
         </div>
@@ -32,7 +31,7 @@ const footercommn = () => {
           </div>
         </div>
 
-        <div class="text-xl pt-10 md:pt-[2vh] font-bold text-[#F8F872]">
+        <div class="text-xl pt-10 md:pt-0 font-bold text-[#F8F872]">
           Policy
           <div class=" flex flex-col text-white pt-5 ">
             <Link to={"/tac"}>Terms & Condition</Link>
@@ -48,13 +47,14 @@ const footercommn = () => {
           <div class="text-xl font-bold text-white pb-9">
             Excited for your new shopping journey?{" "}
           </div>
-          <Link to={'/shop'}>
-            <button className=" items-center  bg-[#F8F872] text-black font-medium rounded-2xl px-20 py-6">
-              Lets Shop
-            </button>
-          </Link>
+          <div className="flex flex-col md:flex-row justify-evenly space-x-7 items-center py-2">
+            <Link to={"/shop"}>
+              <button className="bg-[#F8F872] text-black font-medium rounded-2xl px-[3vw] py-[2vh]">
+                Lets Shop
+              </button>
+            </Link>
+          </div>
         </div>
-
       </div>
     </div>
   );
