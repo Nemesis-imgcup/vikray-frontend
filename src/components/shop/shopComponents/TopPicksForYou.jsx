@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bag, BagNikon, Jack, Shoe, Top1, Top2, Top3, Top4 } from '../shopassets'
+import { Bag, BagNikon, Jack, Shoe} from '../shopassets'
 import ItemCard from './ItemCard'
 
 const TopPicksForYou = () => {
