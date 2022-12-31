@@ -1,4 +1,4 @@
-import { cyberpunk_jacket, nike_air_zoom_pegasus_36 } from "../3dassets"
+import { cyberpunk_jacket, nike_air_zoom_pegasus_36, versace_bag, old_camera_bag_ } from "../3dassets"
 
 const topPicData = [
     {
@@ -52,6 +52,54 @@ const topPicData = [
     },
     {
         id: 3,
+        name: "Black Large Palazzo Handbag",
+        company: "Versace",
+        price: "$2360",
+        poster: "https://cdn.discordapp.com/attachments/1054636645732859994/1056655985151844372/ahhhh.png",
+        description: "The Icon handbag, a timeless must-have for the woman on the go. The bag to take you from desk to drinks - from uptown to downtown, the Icon is that staple addition for the Versace woman's wardrobe.",
+        material: [ "Leather" ],
+        model: versace_bag,
+        placement: "floor",
+        hotspots: [
+            {
+                id: 1,
+                name: "Button closure",
+                position: "0.07188187187656739m 1.4514574166323728m 0.08786709958031445m",
+                normal: "-0.021876867398458802m 0.3620999834986919m 0.9318825058037508m",
+            },
+            {
+                id: 2,
+                name: "Leather material",
+                position: "-0.14273273485683724m 1.193229129751948m 0.0749232170042912m",
+                normal: "-0.6750052890684157m 0.165322875775553m 0.7190522974547578m",
+            }
+        ]
+        
+    },
+    {
+        id: 4,
+        name: "Vintage Camera Bag",
+        company: "Nikon",
+        price: "$55",
+        poster: "https://cdn.discordapp.com/attachments/1054636645732859994/1056655985151844372/ahhhh.png",
+        description: "Vintage Genuine Nikon Camera Bag Bluish Grey/Beige , Gold Interior, with adjustable padded dividers and removable shoulder strap.",
+        material: [ "Fabric" ],
+        model: old_camera_bag_,
+        placement: "floor",
+        hotspots: [
+            {
+                id: 1,
+                name: "Button closure",
+                position: "0.07188187187656739m 1.4514574166323728m 0.08786709958031445m",
+                normal: "-0.021876867398458802m 0.3620999834986919m 0.9318825058037508m",
+            },
+            {
+                id: 2,
+                name: "Leather material",
+                position: "-0.14273273485683724m 1.193229129751948m 0.0749232170042912m",
+                normal: "-0.6750052890684157m 0.165322875775553m 0.7190522974547578m",
+            }
+        ]
         
     }
 ]
